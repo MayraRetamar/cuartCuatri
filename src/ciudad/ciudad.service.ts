@@ -21,7 +21,7 @@ export class CiudadService {
     return this.ciudades;
   }
 
-  create(createCiudadDto: CiudadDto) {
+  create(CiudadDto: CiudadDto) {
     return 'This action adds a new ciudad';
   }
 

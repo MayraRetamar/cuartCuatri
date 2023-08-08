@@ -14,7 +14,7 @@ export class CiudadController {
 
   @Get()
   findAll() {
-    return this.ciudadService.findAll();
+    return this.ciudadService.getAllRaw();
   }
 
   @Get(':id')
